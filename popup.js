@@ -151,4 +151,4 @@ function processRiskCard(cardId, textId, rawResponseStr) {
   if (riskIndicator === "red") targetCard.classList.add("risk-high");
   else if (riskIndicator === "yellow") targetCard.classList.add("risk-medium");
   else targetCard.classList.add("risk-safe");
-}
+}  
