@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "SafeSign AI Auditor",
+  "version": "1.0",
+  "description": "Scans websites and terms for hidden traps, displaying dynamic trust ratings and immediate warning vectors.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://generativelanguage.googleapis.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
